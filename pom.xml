@@ -12,9 +12,9 @@
 		<relativePath />
 	</parent>
 
-	<groupId>com.mycompany</groupId>        <!-- FIXME: Your organization groupId here -->
-	<artifactId>Process_Pixels</artifactId> <!-- FIXME: Your project artifactId here   -->
-	<version>0.1.0-SNAPSHOT</version>
+	<groupId>tests.imagej</groupId>        <!-- FIXME: Your organization groupId here -->
+	<artifactId>OmeroImagej1Test</artifactId> <!-- FIXME: Your project artifactId here   -->
+	<version>0.0.1</version>
 
 	<name>Process Pixels</name>                                                   <!-- FIXME: Your project name here          -->
 	<description>A Maven project implementing an ImageJ 1.x plugin.</description> <!-- FIXME: Your project description here   -->
