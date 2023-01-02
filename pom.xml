@@ -16,13 +16,13 @@
 	<artifactId>OmeroImagej1Test</artifactId> <!-- FIXME: Your project artifactId here   -->
 	<version>0.0.1</version>
 
-	<name>Process Pixels</name>                                                   <!-- FIXME: Your project name here          -->
+	<name>ImageJ1 omero test</name>                                                   <!-- FIXME: Your project name here          -->
 	<description>A Maven project implementing an ImageJ 1.x plugin.</description> <!-- FIXME: Your project description here   -->
-	<url>https://mycompany.com/imagej/process-pixels/</url>                       <!-- FIXME: Your project website here       -->
-	<inceptionYear>2012</inceptionYear>                                           <!-- FIXME: Your project starting year here -->
+	<url>https://github.com/Karivtan/imagej1omerotest</url>                       <!-- FIXME: Your project website here       -->
+	<inceptionYear>2020</inceptionYear>                                           <!-- FIXME: Your project starting year here -->
 	<organization>
-		<name>My Company</name>           <!-- FIXME: Your organization name here    -->
-		<url>https://mycompany.com/</url> <!-- FIXME: Your organization website here -->
+		<name>Imagej1 omero test</name>           <!-- FIXME: Your organization name here    -->
+		<url>https://www.universiteitleiden.nl</url> <!-- FIXME: Your organization website here -->
 	</organization>
 	<licenses>
 		<license>                         <!-- FIXME: Your license here -->
