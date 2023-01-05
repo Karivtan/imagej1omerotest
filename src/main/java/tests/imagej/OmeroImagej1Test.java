@@ -101,6 +101,6 @@ public class OmeroImagej1Test implements PlugIn {
     			IJ.log("Finished image "+counter+" of "+images.size());
     		}
     	}
-		
+		godaad.closeConnection(); // needed to close omero connection
 	}
 }
