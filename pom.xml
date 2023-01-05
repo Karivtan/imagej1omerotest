@@ -82,11 +82,53 @@
 		<license.licenseName>cc0</license.licenseName>                      <!-- FIXME: Your license-maven-plugin license code here -->
 		<license.copyrightOwners>My Company, Inc.</license.copyrightOwners> <!-- FIXME: Your organization legal entity name here -->
 	</properties>
-
+	<repositories>
+		<repository>
+			<id>scijava.public</id>
+			<url>https://maven.scijava.org/content/groups/public</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>net.imagej</groupId>
-			<artifactId>ij</artifactId>
+			<artifactId>imagej</artifactId>
+		</dependency>
+		
+		<dependency>
+    		<groupId>ome</groupId>
+    		<artifactId>bioformats_package</artifactId>
+    		<version>6.5.1</version> 
+		</dependency>
+		
+		<dependency>
+    		<groupId>sc.fiji</groupId>
+    		<artifactId>fiji-lib</artifactId>
+		</dependency>
+
+		<dependency>
+    		<groupId>ome</groupId>
+    		<artifactId>scifio</artifactId>
+    		<version>5.0.0-rc2</version>
+		</dependency>
+	
+		<dependency>
+  			<groupId>io.scif</groupId>
+  			<artifactId>scifio</artifactId>
+		</dependency>
+		
+  		<dependency>
+  			<groupId>io.scif</groupId>
+  			<artifactId>scifio-bf-compat</artifactId>
+		</dependency>
+
+		<dependency>
+  			<groupId>ome</groupId>
+  			<artifactId>formats-bsd</artifactId>
+		</dependency>
+
+		<dependency>
+  			<groupId>ome</groupId>
+  			<artifactId>formats-gpl</artifactId>
 		</dependency>
 	</dependencies>
 </project>
