@@ -51,11 +51,10 @@ public class OmeroImagej1Test implements PlugIn {
 
 	@Override
 	public void run(String arg) {
-		// The part below is used for opening all images in a dataset, this only works directly from FIJI so you need to compile and add the plugin to the plugins folder
-    	/* 
-		Open_Omero_Dataset ood = new Open_Omero_Dataset();
+		// The part below is used for opening all images in a dataset
+    	Open_Omero_Dataset ood = new Open_Omero_Dataset();
         ood.run(null);
-        */
+        
 		
         getOmeroDatasetAndAttachData godaad = new getOmeroDatasetAndAttachData();
     	Collection<ImageData> images = godaad.getImageCollection();// we now have a collection of images we can run through
