@@ -66,8 +66,11 @@ public class OmeroImagej1Test implements PlugIn {
     			ImageData data = image.next(); // gets the current image
     			IJ.log("Loading image "+counter+" of "+images.size()); // provides progress feedback for users
     			try {
-                	//ImagePlus timp = godaad.openImagePlus(data.getId(), data.getGroupId()); // loads the image if needed
-	                ResultsTable rt2 = new ResultsTable(); // create a result table with some data
+    				//Opening as Imageplus
+                	ImagePlus timp = godaad.openImagePlus(data.getId(), data.getGroupId()); // loads the image if needed
+                	timp.show();
+
+    				ResultsTable rt2 = new ResultsTable(); // create a result table with some data
 	                rt2.incrementCounter();
 	                rt2.addValue("Teststring", "test1");
 	                rt2.addValue("Test", counter);
