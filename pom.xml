@@ -12,11 +12,10 @@
 		<relativePath />
 	</parent>
 
-	<groupId>tests.imagej</groupId>        <!-- FIXME: Your organization groupId here -->
-	<artifactId>OmeroImagej1Test</artifactId> <!-- FIXME: Your project artifactId here   -->
+	<groupId>tests.imagej</groupId>       
+	<artifactId>OmeroImagej1Test</artifactId> 
 	<version>0.0.1</version>
-
-	<name>ImageJ1 omero test</name>                                                   <!-- FIXME: Your project name here          -->
+	<name>ImageJ1 omero test</name>                    
 	<description>A Maven project implementing an ImageJ 1.x plugin.</description> <!-- FIXME: Your project description here   -->
 	<url>https://github.com/Karivtan/imagej1omerotest</url>                       <!-- FIXME: Your project website here       -->
 	<inceptionYear>2020</inceptionYear>                                           <!-- FIXME: Your project starting year here -->
